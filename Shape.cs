@@ -11,6 +11,10 @@ namespace Assignment_2._2._3
         public int Id { get; set; }
         public string Name { get; set; }
         public string Color { get; set; }
+
+
+
+
         public virtual double CalculateArea()
         {
             Console.WriteLine("CalculateArea method not implemented in this class.");

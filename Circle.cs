@@ -9,6 +9,7 @@ namespace Assignment_2._2._3
     internal class Circle: Shape
     {
         public double Radius { get; set; }
+        public double Diameter { get; set; }
         public Circle(int id, string name, string color, double radius)
         {
             Id = id;
@@ -20,10 +21,11 @@ namespace Assignment_2._2._3
         {
             Radius = radius;
         }
+  
 
         public override double CalculateArea()
         {
             return Math.PI * Radius * Radius;
         }
-    }
+    }   
 }
