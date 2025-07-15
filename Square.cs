@@ -8,21 +8,21 @@ namespace Assignment_2._2._3
 {
     internal class Square: Shape
     {
-        public double sideLength { get; set; }
+        public double SideLength { get; set; }
         public Square(int id, string name, string color, double sideLength)
         {
             Id = id;
             Name = name;
             Color = color;
-            this.sideLength = sideLength;
+            SideLength = sideLength;
         }
         public Square(double sideLength)
         {
-            this.sideLength = sideLength;
+           SideLength = sideLength;
         }
         public override double CalculateArea()
         {
-            return sideLength * sideLength;
+            return SideLength * SideLength;
         }
     }
 }
